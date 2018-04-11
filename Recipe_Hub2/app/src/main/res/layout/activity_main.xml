@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/iconlauncher_round"
+        android:layout_gravity="center"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="Welcome to your own personal Recipe Hub!"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:paddingBottom="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/addRecipesBtn"
+        android:text="Add Recipe"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/myRecipesBtn"
+        android:text="My Recipes"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/recipeHubBtn"
+        android:text="Recipe Hub"
+        android:layout_marginBottom="15dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/steak"
+        android:layout_gravity="center" />
+</LinearLayout>
+
+
+
+
+            <android.support.design.widget.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/navigation_border_grey_top"
+                android:layout_gravity="bottom"
+                android:id="@+id/bottomNavigationViewBar"
+                app:menu="@menu/navigation_menu_bottom">
+
+
+
+            </android.support.design.widget.BottomNavigationView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

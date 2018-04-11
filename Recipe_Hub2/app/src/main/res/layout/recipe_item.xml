@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/parent_layout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeTitleTxtView"
+        android:text="Recipe Title"
+        android:textSize="24dp"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/servingSizeTxtView"
+        android:textSize="18dp"
+        android:text="Serving Size"
+        android:layout_below="@+id/recipeTitleTxtView"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginLeft="10dp"/>
+
+
+    </RelativeLayout>
+
+

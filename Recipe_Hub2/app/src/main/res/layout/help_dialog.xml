@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpTxtAr"
+        android:textColor="#000"
+        android:paddingBottom="15dp"
+        android:text="To Add a new Recipe, Please push the 'Add Recipe' Button on the Homepage or Navigation Bar."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:id="@+id/helpTxtVr"
+        android:paddingBottom="15dp"
+        android:text="To view your Recipes, Please push the 'My Recipes' Button on the Homepage or Navigation Bar."
+        android:layout_below="@+id/helpTxtAr"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpTxtRh"
+        android:textColor="#000"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/helpTxtVr"
+        android:text="Coming Soon! The Recipe Hub, where you can share your recipes online and also view other's Recipes."/>
+
+    
+</RelativeLayout>

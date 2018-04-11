@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recipe Hub</string>
+
+    <string-array name="categoriesSpinner">
+        <item>Select a Category...</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snacks</item>
+    </string-array>
+</resources>
